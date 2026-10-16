@@ -1,11 +1,12 @@
 {
   "schema": "valkrai.headquarters/1",
-  "release": "hq-20261016-v1",
+  "release": "hq-g093-candidate-1",
   "divisions": [
     "Games",
     "Defense"
   ],
   "galleryRelease": "roster24-e42afd7fc389",
   "artStatus": "Provisional AI-generated 2D concepts, not final character acceptance",
-  "gameStatus": "Local prototype; public release pending"
+  "gameStatus": "Local prototype; public release pending",
+  "status": "Frozen local candidate pending independent review; not published"
 }

@@ -1,0 +1,14 @@
+{
+  "goal": "g093",
+  "status": "reviewed-published-live-verified",
+  "reviewedCommit": "cc3bccc80c13c09b1fac655ab91b4122e61e6a32",
+  "reviewReceipt": "/Users/johnmobley/Documents/Codex/2026-10-14/task/valkrai-improvement-independent-review/acceptance.json",
+  "versionID": "fe84b61f-75ad-4aa3-9fc8-b5ea17eba410",
+  "deploymentID": "18564e55-4dba-4c56-a41a-541425074fe1",
+  "evidenceDirectory": "/Users/johnmobley/Documents/Codex/2026-10-16/task-10/g093-release/evidence",
+  "rollbackVersionID": "1528a40d-d4f2-4f93-9414-22a82508aa57",
+  "rollbackBundle": "/Users/johnmobley/Documents/Codex/2026-10-16/task-10/release",
+  "rollbackScope": "Restore prior HQ version/bundle with current routes, domain attachments and FLEET binding unchanged. Do not revert to initial static-only directory version. Fresh ownership verification required.",
+  "publicationProcess": "Frozen candidate safe-deploy.sh remains disabled for future changes. Owner publication used guarded g093-release/publish-reviewed.sh tied to the exact independent acceptance receipt.",
+  "exactSnapshotNotes": "Public release.json retains frozen-candidate wording and X-Valkrai-Release retains the v1 compatibility label because the exact reviewed public files and worker were published unchanged. Version/deployment in this private receipt is authoritative; future metadata cleanup requires a separately reviewed change."
+}

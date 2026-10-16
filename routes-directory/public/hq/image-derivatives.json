@@ -1,0 +1,72 @@
+{
+  "schema": "valkrai.image-derivatives/1",
+  "status": "Local candidate; originals preserved; derivatives are delivery optimizations, not new artwork or acceptance",
+  "assets": [
+    {
+      "original": "C01-eir-v03-66f2cf5512e4.png",
+      "originalBytes": 2304394,
+      "originalSHA256": "66f2cf5512e45afa1874b3b625726ff4882f706274544f49cbd6e044b3b905e8",
+      "method": "Pillow 12.3.0 resize preserving aspect ratio; WebP quality88 method6; no generative/content edits",
+      "variants": [
+        {
+          "width": 400,
+          "height": 600,
+          "file": "C01-eir-v03-66f2cf5512e4-400-6fe4792bb0ff.webp",
+          "bytes": 48454,
+          "sha256": "6fe4792bb0ffbc98ef9fe269d344c32e6c28df94648b8f0fee666bb8835e033e"
+        },
+        {
+          "width": 800,
+          "height": 1200,
+          "file": "C01-eir-v03-66f2cf5512e4-800-e1e01603a50a.webp",
+          "bytes": 144722,
+          "sha256": "e1e01603a50aab2c5b4525716bc85d7f774c4bdfb18b8d8a97152ad4e40a065a"
+        }
+      ]
+    },
+    {
+      "original": "C03-brynhildr-v03-4d38c4c67179.png",
+      "originalBytes": 2264039,
+      "originalSHA256": "4d38c4c6717999c542e58d10183153a9777a38583c283d939987ba267caf2b17",
+      "method": "Pillow 12.3.0 resize preserving aspect ratio; WebP quality88 method6; no generative/content edits",
+      "variants": [
+        {
+          "width": 400,
+          "height": 600,
+          "file": "C03-brynhildr-v03-4d38c4c67179-400-2116de2fbd9f.webp",
+          "bytes": 43400,
+          "sha256": "2116de2fbd9ff286108a9fe6d86b03e5b41eb4b3bffa6bcaed5aa4a068f835dd"
+        },
+        {
+          "width": 800,
+          "height": 1200,
+          "file": "C03-brynhildr-v03-4d38c4c67179-800-695dc3ecfa1a.webp",
+          "bytes": 131234,
+          "sha256": "695dc3ecfa1ad4ac249763c339e2285a6b6acfb609c7841c3645dcaf0ad93b2a"
+        }
+      ]
+    },
+    {
+      "original": "C07-skuld-v03-70092da2a27b.png",
+      "originalBytes": 2282561,
+      "originalSHA256": "70092da2a27b658ffc1cba6bba8992a3780ea792639e22071c2003753143c2f0",
+      "method": "Pillow 12.3.0 resize preserving aspect ratio; WebP quality88 method6; no generative/content edits",
+      "variants": [
+        {
+          "width": 400,
+          "height": 600,
+          "file": "C07-skuld-v03-70092da2a27b-400-51d6b393ca3c.webp",
+          "bytes": 46128,
+          "sha256": "51d6b393ca3ce0920211c2391fd82868c9bc56cee38eb974208d34eaeb5d99dc"
+        },
+        {
+          "width": 800,
+          "height": 1200,
+          "file": "C07-skuld-v03-70092da2a27b-800-b0e8fc7af039.webp",
+          "bytes": 137808,
+          "sha256": "b0e8fc7af03953b83b7927c2b926131bc20e9b1f7dae4bd0370cb79c42428378"
+        }
+      ]
+    }
+  ]
+}
