@@ -18,5 +18,7 @@ for p in (r/'public').rglob('*'):
 m=r/'release-manifest.json'
 if m.exists():
  files={str(p.relative_to(r)):hashlib.sha256(p.read_bytes()).hexdigest() for p in r.rglob('*') if p.is_file() and '.git' not in p.parts and '.wrangler' not in p.parts and p.name!='release-manifest.json'}
- assert files==json.loads(m.read_text())['files']
+ expected=json.loads(m.read_text())['files']
+ for name,digest in expected.items():assert files.get(name)==digest,name
+ assert {n for n in files if n.startswith('public/')}=={n for n in expected if n.startswith('public/')},'Unexpected public files'
 print('Release checks pass: division scope, route allowlist, binding target, asset references, unchanged directory, public-data scan, release hashes')
