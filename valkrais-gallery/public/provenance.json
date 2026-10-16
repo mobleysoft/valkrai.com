@@ -1,22 +1,22 @@
 {
   "title": "Valkrai Character Atelier",
-  "release": "concept-edition-01",
-  "status": "new concepts, not approved visual canon",
+  "release": "roster24-e42afd7fc389",
+  "status": "24 normalized-name concept groups; provisional, not approved visual canon",
   "identity_sources": [
     {
       "record": "AuiValkyries.json",
       "entries": {
-        "C1": "Eir \u2014 Queen of Creation",
-        "C3": "Brynhildr \u2014 Queen of Command",
-        "C7": "Skuld \u2014 Queen of Cognizance"
+        "C1": "Eir — Queen of Creation",
+        "C3": "Brynhildr — Queen of Command",
+        "C7": "Skuld — Queen of Cognizance"
       }
     },
     {
       "record": "beings_api.json",
       "entries": {
-        "158": "Eir Mercy \u2014 C1 Foundation",
-        "160": "Brynhildr Shield \u2014 C3 Foundation",
-        "164": "Skuld Future \u2014 C7 Foundation"
+        "158": "Eir Mercy — C1 Foundation",
+        "160": "Brynhildr Shield — C3 Foundation",
+        "164": "Skuld Future — C7 Foundation"
       }
     }
   ],
@@ -60,6 +60,362 @@
       "version": "0.1",
       "created_at": "2026-10-16",
       "reference_images": []
+    },
+    {
+      "file": "assets/C01-eir-v03-66f2cf5512e4.png",
+      "sha256": "66f2cf5512e45afa1874b3b625726ff4882f706274544f49cbd6e044b3b905e8",
+      "bytes": 2304394,
+      "slots": [
+        "C1",
+        "C25"
+      ],
+      "name": "Eir",
+      "version": "v03",
+      "status": "provisional-unaccepted",
+      "method": "Existing original project concept revision; retained without regeneration",
+      "referenceHashes": [],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C02-verdandi-v02-e10799bff29d.png",
+      "sha256": "e10799bff29da6505c8dd08d18f404fc5645d3c0a789fa640a095769aefda473",
+      "bytes": 2604003,
+      "slots": [
+        "C2"
+      ],
+      "name": "Verdandi",
+      "version": "v02",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; versioned edit of existing original concept",
+      "referenceHashes": [
+        "42f566887ae80615e83e7659b50f0912861fb55d78c2cdbc186dbde4c94694b1"
+      ],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C03-brynhildr-v03-4d38c4c67179.png",
+      "sha256": "4d38c4c6717999c542e58d10183153a9777a38583c283d939987ba267caf2b17",
+      "bytes": 2264039,
+      "slots": [
+        "C3"
+      ],
+      "name": "Brynhildr",
+      "version": "v03",
+      "status": "provisional-unaccepted",
+      "method": "Existing original project concept revision; retained without regeneration",
+      "referenceHashes": [],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C04-reginleif-v02-98c39ee2e106.png",
+      "sha256": "98c39ee2e1061b5dd4d91e870a7e3f8ad7de5bfb6407f06be545e071d728ef51",
+      "bytes": 2586976,
+      "slots": [
+        "C4"
+      ],
+      "name": "Reginleif",
+      "version": "v02",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; versioned edit of existing original concept",
+      "referenceHashes": [
+        "bef6928585f2326ee3035db8b8b64f61f31a7ad6519020bac61f95124cf6991e"
+      ],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C05-hrist-v02-5447393560aa.png",
+      "sha256": "5447393560aa6fde048abfca78d18a0492fe9e403830ab7dddfa97280fac47d2",
+      "bytes": 2600519,
+      "slots": [
+        "C5"
+      ],
+      "name": "Hrist",
+      "version": "v02",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; versioned edit of existing original concept",
+      "referenceHashes": [
+        "57d981ef0cd0a1f7f98f3db1b88b166eb0d140bc05bd5fd290028e95232dd27c"
+      ],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C06-gondul-v01-ac218d582888.png",
+      "sha256": "ac218d58288887b1134e2e350cd48c0d4908310df5e98bb1039c7ef060fb4c9d",
+      "bytes": 2629145,
+      "slots": [
+        "C6"
+      ],
+      "name": "Göndul",
+      "version": "v01",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; text-prompted original concept",
+      "referenceHashes": [],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C07-skuld-v03-70092da2a27b.png",
+      "sha256": "70092da2a27b658ffc1cba6bba8992a3780ea792639e22071c2003753143c2f0",
+      "bytes": 2282561,
+      "slots": [
+        "C7"
+      ],
+      "name": "Skuld",
+      "version": "v03",
+      "status": "provisional-unaccepted",
+      "method": "Existing original project concept revision; retained without regeneration",
+      "referenceHashes": [],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C08-hervor-v01-b3d3e994fcc4.png",
+      "sha256": "b3d3e994fcc4ab0a3056b15f44b3da399eb776d21b758376c3558b584ef75280",
+      "bytes": 2688051,
+      "slots": [
+        "C8"
+      ],
+      "name": "Hervor",
+      "version": "v01",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; text-prompted original concept",
+      "referenceHashes": [],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C09-rota-v01-8409f5bd7374.png",
+      "sha256": "8409f5bd73742903d40d3004de2ec1edcfa0ca89d3090eb909549e2460321b4d",
+      "bytes": 2753454,
+      "slots": [
+        "C9",
+        "C16"
+      ],
+      "name": "Róta",
+      "version": "v01",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; text-prompted original concept",
+      "referenceHashes": [],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C10-sigrun-v03-c75ffcdbd1c0.png",
+      "sha256": "c75ffcdbd1c026345eaa4e440ff9413a831b7246ca768fdac0a99348f33e4630",
+      "bytes": 2341112,
+      "slots": [
+        "C10"
+      ],
+      "name": "Sigrún",
+      "version": "v03",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; versioned edit of existing original concept",
+      "referenceHashes": [
+        "eb4cccc8c3371dae0be48ea2b57828df3f6ea6472b6ebbee0b8f080ef6a30de3"
+      ],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C11-mist-v01-295f47d29d11.png",
+      "sha256": "295f47d29d11f544c364bf0abfc0d8321baabaf8b5e2a12a4a2562399d5981ba",
+      "bytes": 2677385,
+      "slots": [
+        "C11"
+      ],
+      "name": "Mist",
+      "version": "v01",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; text-prompted original concept",
+      "referenceHashes": [],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C12-svava-v01-1dbcd8786ae9.png",
+      "sha256": "1dbcd8786ae93afcf0cdea66f6b0f395adfb920f014125a3a90df343a79ee45d",
+      "bytes": 2549389,
+      "slots": [
+        "C12"
+      ],
+      "name": "Sváva",
+      "version": "v01",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; text-prompted original concept",
+      "referenceHashes": [],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C13-olrun-v02-25678c99d7d8.png",
+      "sha256": "25678c99d7d840b08752212393a87dcd554c2fafa5df84855be65a266ea94aef",
+      "bytes": 2586541,
+      "slots": [
+        "C13"
+      ],
+      "name": "Olrun",
+      "version": "v02",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; versioned edit of existing original concept",
+      "referenceHashes": [
+        "2cabdd82818b3ba6ef1f8fb09572977a28abd08930b17b26ec0f40dc76ae6aa2"
+      ],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C14-geirskogul-v01-49ffe8783272.png",
+      "sha256": "49ffe8783272f458345e28b48ddfa3e977f8ab3703866a2ddbe9f5c6bf2cf343",
+      "bytes": 2825315,
+      "slots": [
+        "C14"
+      ],
+      "name": "Geirskogul",
+      "version": "v01",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; text-prompted original concept",
+      "referenceHashes": [],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C15-alvitr-v02-d22770c2784a.png",
+      "sha256": "d22770c2784a7f5d472b020bf162f0bd8948c6a73864fb88f4bf51650f7e099e",
+      "bytes": 2624877,
+      "slots": [
+        "C15"
+      ],
+      "name": "Alvitr",
+      "version": "v02",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; versioned edit of existing original concept",
+      "referenceHashes": [
+        "1b12520273254710d462b6e590519ce2aa64f993f1616e06e821ac5809ed1211"
+      ],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C17-hlokk-v02-e0f8f52d9d43.png",
+      "sha256": "e0f8f52d9d4336956703e99b0a88ccc75b18d10cf0b7a22b97eba8c69462fe65",
+      "bytes": 2470243,
+      "slots": [
+        "C17"
+      ],
+      "name": "Hlökk",
+      "version": "v02",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; versioned edit of existing original concept",
+      "referenceHashes": [
+        "9d493dc2790a897c9123459e251bf2f5bc577d0d9d0aae28e8c760399cfbdc00"
+      ],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C18-kara-v02-aa7e34dda889.png",
+      "sha256": "aa7e34dda889f489012b8d47c536a7d27cf3a849135e4c04c9ba81bda56d17d9",
+      "bytes": 2405223,
+      "slots": [
+        "C18"
+      ],
+      "name": "Kara",
+      "version": "v02",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; versioned edit of existing original concept",
+      "referenceHashes": [
+        "b5fb947c2aa4ff0a58c12efc3d6ea01e20a9996db75e49a8324fb3a030bb22aa"
+      ],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C19-eisa-v01-3732b73f6993.png",
+      "sha256": "3732b73f69934ecb3c5d8bcf6970976eb913821342da4a0ed3271f3929be9458",
+      "bytes": 2830372,
+      "slots": [
+        "C19"
+      ],
+      "name": "Eisa",
+      "version": "v01",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; text-prompted original concept",
+      "referenceHashes": [],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C20-astrid-v01-19a89efd4bbc.png",
+      "sha256": "19a89efd4bbcce17f0062172f0a714705e4481946964bd70236669aa287cefaf",
+      "bytes": 2426524,
+      "slots": [
+        "C20"
+      ],
+      "name": "Astrid",
+      "version": "v01",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; text-prompted original concept",
+      "referenceHashes": [],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C21-freydis-v01-001bc7a02f40.png",
+      "sha256": "001bc7a02f403712d686ab303d376ddb7a305f6541b410eb41bb7f807ea1e979",
+      "bytes": 2530471,
+      "slots": [
+        "C21"
+      ],
+      "name": "Freydis",
+      "version": "v01",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; text-prompted original concept",
+      "referenceHashes": [],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C22-hildegard-v02-49322be84965.png",
+      "sha256": "49322be849658078d31a19d85284ad88ec4e4319cf36d0a078b7b8716f254c44",
+      "bytes": 2480043,
+      "slots": [
+        "C22"
+      ],
+      "name": "Hildegard",
+      "version": "v02",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; versioned edit of existing original concept",
+      "referenceHashes": [
+        "dd7bb7d21e7698f9f553925c65e71610af130ca827cbe59898c7c191112f63ab"
+      ],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C23-selvie-v01-02789fe351b8.png",
+      "sha256": "02789fe351b808cbcdf2e36cc83e0a98e049727962912d946d0cf74c99492044",
+      "bytes": 2787871,
+      "slots": [
+        "C23"
+      ],
+      "name": "Selvie",
+      "version": "v01",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; text-prompted original concept",
+      "referenceHashes": [],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C24-rhune-v01-19428dca5886.png",
+      "sha256": "19428dca58860a22c627754c7fcf7b1ba17bb959e808b16aa54bfee588dfc1eb",
+      "bytes": 2636246,
+      "slots": [
+        "C24"
+      ],
+      "name": "Rhune",
+      "version": "v01",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; text-prompted original concept",
+      "referenceHashes": [],
+      "modelVariant": null
+    },
+    {
+      "file": "assets/C26-alsint-v01-a58b75a0ba98.png",
+      "sha256": "a58b75a0ba9820bafa352072e6182870d9e86b6cb026bfd5f873815ee6439cd6",
+      "bytes": 2753208,
+      "slots": [
+        "C26"
+      ],
+      "name": "Alsint",
+      "version": "v01",
+      "status": "provisional-unaccepted",
+      "method": "built-in image_gen; text-prompted original concept",
+      "referenceHashes": [],
+      "modelVariant": null
     }
   ],
   "limits": {
@@ -67,5 +423,375 @@
     "character_3d_models_found": false,
     "source_records_are_not_visual_versions": true
   },
-  "rights_note": "Original concept artwork generated for this project with no reference image or third-party character input. No claim of exclusive legal copyright is made."
+  "rights_note": "Original concept artwork generated for this project with no reference image or third-party character input. No claim of exclusive legal copyright is made.",
+  "last_verified": "2026-10-16T16:00:57.668225+00:00",
+  "counts": {
+    "normalizedNames": 24,
+    "historicalCSlots": 26,
+    "contextNodesNotCharacters": 7,
+    "latestDisplayedSheets": 24
+  },
+  "identity_mapping": [
+    {
+      "name": "Eir",
+      "slots": [
+        {
+          "id": "C1",
+          "function": "C1 - Create",
+          "title": "Valkyrie: Eir-C01 - Queen of Creation",
+          "aliases": [
+            "Eir",
+            "Eir Mercy"
+          ]
+        },
+        {
+          "id": "C25",
+          "function": "C25 - Cosmologize",
+          "title": "Valkyrie: Eir-C25 - Queen of Cosmologies",
+          "aliases": [
+            "Eir",
+            "Eir Ascendant"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verdandi",
+      "slots": [
+        {
+          "id": "C2",
+          "function": "C2 - Compute",
+          "title": "Valkyrie: Verdandi-C02 - Queen of Computation",
+          "aliases": [
+            "Verdandi",
+            "Verdandi Present"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brynhildr",
+      "slots": [
+        {
+          "id": "C3",
+          "function": "C3 - Command",
+          "title": "Valkyrie: Brynhildr-C03 - Queen of Command",
+          "aliases": [
+            "Brynhildr",
+            "Brynhildr Shield"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reginleif",
+      "slots": [
+        {
+          "id": "C4",
+          "function": "C4 - Control",
+          "title": "Valkyrie: Reginleif-C04 - Queen of Control",
+          "aliases": [
+            "Reginleif",
+            "Reginleif Judgment"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hrist",
+      "slots": [
+        {
+          "id": "C5",
+          "function": "C5 - Coevolution",
+          "title": "Valkyrie: Hrist-C05 - Queen of Coevolution",
+          "aliases": [
+            "Hrist",
+            "Hrist Tremor"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Göndul",
+      "slots": [
+        {
+          "id": "C6",
+          "function": "C6 - Conquest",
+          "title": "Valkyrie: Göndul-C06 - Queen of Conquest",
+          "aliases": [
+            "Göndul",
+            "Gondul Wand"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skuld",
+      "slots": [
+        {
+          "id": "C7",
+          "function": "C7 - Computation",
+          "title": "Valkyrie: Skuld-C07 - Queen of Cognizance",
+          "aliases": [
+            "Skuld",
+            "Skuld Future"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hervor",
+      "slots": [
+        {
+          "id": "C8",
+          "function": "C8 - Cognizance",
+          "title": "Valkyrie: Hervor-C08 - Queen of Countermeasures",
+          "aliases": [
+            "Hervor",
+            "Hervor Blade"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Róta",
+      "slots": [
+        {
+          "id": "C9",
+          "function": "C9 - Countermeasures",
+          "title": "Valkyrie: Róta-C09 - Queen of Convergence",
+          "aliases": [
+            "Róta",
+            "Rota Wheel"
+          ]
+        },
+        {
+          "id": "C16",
+          "function": "C16 - Convergence",
+          "title": "Valkyrie: Rota-C16 - Queen of Convergence",
+          "aliases": [
+            "Rota"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sigrún",
+      "slots": [
+        {
+          "id": "C10",
+          "function": "C10 - Culmination",
+          "title": "Valkyrie: Sigrún-C10 - Queen of Culmination",
+          "aliases": [
+            "Sigrún",
+            "Sigrun Victory"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mist",
+      "slots": [
+        {
+          "id": "C11",
+          "function": "C11 - Consciousness",
+          "title": "Valkyrie: Mist-C11 - Queen of Consciousness",
+          "aliases": [
+            "Mist",
+            "Mist Veil"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sváva",
+      "slots": [
+        {
+          "id": "C12",
+          "function": "C12 - Cybernetics",
+          "title": "Valkyrie: Sváva-C12 - Queen of Cybernetics",
+          "aliases": [
+            "Sváva",
+            "Svava Lullaby"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Olrun",
+      "slots": [
+        {
+          "id": "C13",
+          "function": "C13 - Cryptogenesis",
+          "title": "Valkyrie: Olrun-C13 - Queen of Cryptogenesis",
+          "aliases": [
+            "Olrun",
+            "Olrun Rune"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geirskogul",
+      "slots": [
+        {
+          "id": "C14",
+          "function": "C14 - Cataclysm",
+          "title": "Valkyrie: Geirskogul-C14 - Queen of Cataclysm",
+          "aliases": [
+            "Geirskogul",
+            "Geirskogul Spear"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alvitr",
+      "slots": [
+        {
+          "id": "C15",
+          "function": "C15 - Celestialization",
+          "title": "Valkyrie: Alvitr-C15 - Queen of Celestialization",
+          "aliases": [
+            "Alvitr",
+            "Alvitr Allwise"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hlökk",
+      "slots": [
+        {
+          "id": "C17",
+          "function": "C17 - Continuum",
+          "title": "Valkyrie: Hlökk-C17 - Queen of Continuum",
+          "aliases": [
+            "Hlökk",
+            "Hlokk Clash"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kara",
+      "slots": [
+        {
+          "id": "C18",
+          "function": "C18 - Cosmogenesis",
+          "title": "Valkyrie: Kara-C18 - Queen of Cosmogenesis",
+          "aliases": [
+            "Kara",
+            "Kara Storm"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eisa",
+      "slots": [
+        {
+          "id": "C19",
+          "function": "C19 - Canonize",
+          "title": "Valkyrie: Eisa-C19 - Queen of Canonization",
+          "aliases": [
+            "Eisa",
+            "Eisa Ember"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Astrid",
+      "slots": [
+        {
+          "id": "C20",
+          "function": "C20 - ClimbDown",
+          "title": "Valkyrie: Astrid-C20 - Queen of Control",
+          "aliases": [
+            "Astrid",
+            "Astrid Star"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Freydis",
+      "slots": [
+        {
+          "id": "C21",
+          "function": "C21 - Collapse",
+          "title": "Valkyrie: Freydis-C21 - Queen of Climbdown Integration",
+          "aliases": [
+            "Freydis",
+            "Freydis Freedom"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hildegard",
+      "slots": [
+        {
+          "id": "C22",
+          "function": "C22 - Chameleonize",
+          "title": "Valkyrie: Hildegard-C22 - Queen of Camoflauge",
+          "aliases": [
+            "Hildegard",
+            "Hildegard Battle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Selvie",
+      "slots": [
+        {
+          "id": "C23",
+          "function": "C23 - Computronium",
+          "title": "Valkyrie: Selvie-C23 - Queen of Computronium",
+          "aliases": [
+            "Selvie",
+            "Selvie Self"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rhune",
+      "slots": [
+        {
+          "id": "C24",
+          "function": "C24 - Computronus",
+          "title": "Valkyrie: Rhune-C24 - Queen of Computation",
+          "aliases": [
+            "Rhune",
+            "Rhune Mystery"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alsint",
+      "slots": [
+        {
+          "id": "C26",
+          "function": "C26 - Cosmolegize",
+          "title": "Valkyrie: Alsint-C26 - Queen of the Creation's Creation",
+          "aliases": [
+            "Alsint",
+            "Alsint Synthesis"
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "No final 3D readiness, anatomy/clinical/flight validation or asset-specific user acceptance is implied.",
+    "C0/Gigi and six foundation nodes remain architecture context, not extra fighters.",
+    "Repeated Eir and Rota normalized names do not establish merged personal identities.",
+    "All bodies, feet and main weapon tips are visible. Outer wing clearance remains tight; front/rear views use different scales.",
+    "All bodies, feet and main weapon tips are visible. Outer wing clearance is tight, particularly at the upper edge; front/rear views use different scales.",
+    "Two corded pointed weights hang freely at rest, one from each hand. Grip versus wrist attachment, length and storage, whether cords are independent or connected, and deployment/recovery movement remain undefined. Wrist and hip ornament cords are not an established weapon mechanism."
+  ]
 }
