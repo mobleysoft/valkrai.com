@@ -1,0 +1,13 @@
+{
+  "files": {
+    "404.html": "75e820ac6507eb8d7400066627cab2d7f95aa4b2b82cf29d7e92fd3045fd2d7a",
+    "_headers": "51cc70476c2fdfc607b72ea8e3a8739e0373382ba3cc0c5cedd3387f196e73db",
+    "app.js": "c4b030e2fec8e8d9b0c73d51fbf789a6b02cfae0753043aa18055d84385d061d",
+    "index.html": "b77e5de6f7819031f3385e80ef5742d54c165ab73f8da4c48f11ded2b5f4d0f1",
+    "inventory.json": "2e319de1e237f7033827a2cae3e3576a46dcca7246a692ef6c0104f4af929177",
+    "robots.txt": "fe1ce27e74fd487581b6c556e737bc6996292ffbd123acd39508a1f973d0b8a9",
+    "sitemap.xml": "0d015d32ee598d2446d2643187848b74de26b5eb938836578ad13e0361c0ae83",
+    "style.css": "1806b7f7e50df7fcddb03b2d9a86d958e238ff31c2860895849c9c70d3a7fb5a"
+  },
+  "checked_at": "2026-10-16T12:49:27.720686+00:00"
+}

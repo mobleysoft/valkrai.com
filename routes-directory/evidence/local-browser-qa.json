@@ -1,0 +1,51 @@
+{
+  "target": "http://127.0.0.1:8886/",
+  "phase": "local",
+  "checked_at": "2026-10-16T12:49:41.240Z",
+  "viewports": [
+    {
+      "width": 1440,
+      "horizontalOverflow": false,
+      "cards": 4,
+      "search": true,
+      "emptyState": true,
+      "metadataDisclosure": true,
+      "focus": "A",
+      "links": 17
+    },
+    {
+      "width": 768,
+      "horizontalOverflow": false,
+      "cards": 4,
+      "search": true,
+      "emptyState": true,
+      "metadataDisclosure": true,
+      "focus": "A",
+      "links": 17
+    },
+    {
+      "width": 390,
+      "horizontalOverflow": false,
+      "cards": 4,
+      "search": true,
+      "emptyState": true,
+      "metadataDisclosure": true,
+      "focus": "A",
+      "links": 17
+    },
+    {
+      "width": 320,
+      "horizontalOverflow": false,
+      "cards": 4,
+      "search": true,
+      "emptyState": true,
+      "metadataDisclosure": true,
+      "focus": "A",
+      "links": 17
+    }
+  ],
+  "errors": [],
+  "sectionChecks": [],
+  "withoutJavascript": "All four cards and direct links usable; inactive search hidden.",
+  "result": "passed"
+}

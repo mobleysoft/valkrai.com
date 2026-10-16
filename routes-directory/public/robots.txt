@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://routes.valkrai.com/sitemap.xml

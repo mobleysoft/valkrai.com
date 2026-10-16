@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-10-16T12:48:56.991Z",
+  "directory": "http://127.0.0.1:8886/",
+  "navigation": [
+    {
+      "name": "Faces Lab",
+      "url": "https://faces.valkrai.com/",
+      "title": "Faces — Valkrai form studies",
+      "touchTargetHeight": 47.5,
+      "passed": true
+    },
+    {
+      "name": "Character atelier",
+      "url": "https://valkrais.valkrai.com/",
+      "title": "Valkrai — Character studies",
+      "touchTargetHeight": 47.5,
+      "passed": true
+    },
+    {
+      "name": "Valkrai homepage",
+      "url": "https://valkrai.com/",
+      "title": "valkrai.com | Operational venture brief",
+      "touchTargetHeight": 47.5,
+      "passed": true
+    },
+    {
+      "name": "Method & provenance",
+      "url": "https://faces.valkrai.com/about",
+      "title": "Method — Valkrai Faces",
+      "touchTargetHeight": 57.5,
+      "passed": true
+    }
+  ],
+  "sections": [
+    {
+      "text": "Collection",
+      "url": "https://valkrais.valkrai.com/#collection",
+      "passed": true
+    },
+    {
+      "text": "Compare",
+      "url": "https://valkrais.valkrai.com/#compare",
+      "passed": true
+    },
+    {
+      "text": "Wing anatomy",
+      "url": "https://valkrais.valkrai.com/#vitruvian",
+      "passed": true
+    },
+    {
+      "text": "Origins",
+      "url": "https://valkrais.valkrai.com/#origins",
+      "passed": true
+    },
+    {
+      "text": "Versions",
+      "url": "https://valkrais.valkrai.com/#versions",
+      "passed": true
+    },
+    {
+      "text": "Track-fusion calculator",
+      "url": "https://valkrai.com/#fusion-form",
+      "passed": true
+    }
+  ],
+  "renderReview": {
+    "desktop": "Inspected actual 1440px full-page render: destination names, descriptions, addresses, date and coverage caveat readable; consistent card hierarchy; no clipping.",
+    "mobile": "Inspected actual 390px full-page render: one-column cards, legible labels, wrapped addresses, search and touch-sized gallery links; no horizontal clipping.",
+    "limits": "Headless desktop Chromium viewport emulation, not a physical mobile device."
+  },
+  "assessment": "Directory meets the bounded public-page navigation brief. Four distinct pages, six anchored sections, aliases deduplicated, unavailable routes excluded, metadata disclosed separately. DNS-only hostname coverage remains unverified and is explicitly stated.",
+  "result": "passed"
+}

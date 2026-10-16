@@ -1,0 +1,406 @@
+[
+  {
+    "url": "https://valkrai.com/",
+    "checked_at": "2026-10-16T12:49:26.991396+00:00",
+    "status": 200,
+    "final_url": "https://valkrai.com/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 15158,
+    "sha256": "9898ade398d595699fb7e4ba3bd19ecd7800b296081b47264d00527ba0dfbbaf",
+    "title": "valkrai.com | Operational venture brief",
+    "headings": [
+      "valkrai.com",
+      "Who it serves",
+      "How it earns",
+      "Why it compounds",
+      "Availability without invention.",
+      "Multi-domain track fusion",
+      "Get notified about the full product",
+      "Ask about valkrai.com"
+    ],
+    "links": []
+  },
+  {
+    "url": "https://valkrai.com/index.html",
+    "checked_at": "2026-10-16T12:49:26.991740+00:00",
+    "status": 200,
+    "final_url": "https://valkrai.com/index.html",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 15158,
+    "sha256": "9898ade398d595699fb7e4ba3bd19ecd7800b296081b47264d00527ba0dfbbaf",
+    "title": "valkrai.com | Operational venture brief",
+    "headings": [
+      "valkrai.com",
+      "Who it serves",
+      "How it earns",
+      "Why it compounds",
+      "Availability without invention.",
+      "Multi-domain track fusion",
+      "Get notified about the full product",
+      "Ask about valkrai.com"
+    ],
+    "links": []
+  },
+  {
+    "url": "https://valkrai.com/blog.html",
+    "checked_at": "2026-10-16T12:49:26.991827+00:00",
+    "status": 404,
+    "final_url": "https://valkrai.com/blog.html",
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 10,
+    "sha256": "7515bf959b73b956ceb967351c7e299cbb3668a53d35f9c770eb72e00d93ced6",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://valkrai.com/breach",
+    "checked_at": "2026-10-16T12:49:26.991891+00:00",
+    "status": 404,
+    "final_url": "https://valkrai.com/breach",
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 10,
+    "sha256": "7515bf959b73b956ceb967351c7e299cbb3668a53d35f9c770eb72e00d93ced6",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://valkrai.com/breach/",
+    "checked_at": "2026-10-16T12:49:26.991948+00:00",
+    "status": 404,
+    "final_url": "https://valkrai.com/breach/",
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 10,
+    "sha256": "7515bf959b73b956ceb967351c7e299cbb3668a53d35f9c770eb72e00d93ced6",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://valkrai.com/support",
+    "checked_at": "2026-10-16T12:49:26.992000+00:00",
+    "status": 404,
+    "final_url": "https://valkrai.com/support",
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 10,
+    "sha256": "7515bf959b73b956ceb967351c7e299cbb3668a53d35f9c770eb72e00d93ced6",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://valkrai.com/privacy",
+    "checked_at": "2026-10-16T12:49:27.149883+00:00",
+    "status": 404,
+    "final_url": "https://valkrai.com/privacy",
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 10,
+    "sha256": "7515bf959b73b956ceb967351c7e299cbb3668a53d35f9c770eb72e00d93ced6",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://valkrai.com/health",
+    "checked_at": "2026-10-16T12:49:27.157305+00:00",
+    "status": 200,
+    "final_url": "https://valkrai.com/health",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 274,
+    "sha256": "df2062169b0aaa3e2b3a7ef764778998aa934ae6eccb73d5deeed0e889a9a592",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://valkrai.com/sitemap.xml",
+    "checked_at": "2026-10-16T12:49:27.161855+00:00",
+    "status": 200,
+    "final_url": "https://valkrai.com/sitemap.xml",
+    "content_type": "application/xml; charset=utf-8",
+    "bytes": 151,
+    "sha256": "a4228488681d36c4f0b9ebf908b1a4a5992879eb94f0368364c0959f10179882",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://valkrai.com/robots.txt",
+    "checked_at": "2026-10-16T12:49:27.237730+00:00",
+    "status": 200,
+    "final_url": "https://valkrai.com/robots.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 64,
+    "sha256": "1a5e0dcf9d032f7c9737f5899901fbdb55c48f27908d0d19ea34e7eeacd0f2f0",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://valkrai.com/__directory_identity_probe_20261016",
+    "checked_at": "2026-10-16T12:49:27.309180+00:00",
+    "status": 404,
+    "final_url": "https://valkrai.com/__directory_identity_probe_20261016",
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 10,
+    "sha256": "7515bf959b73b956ceb967351c7e299cbb3668a53d35f9c770eb72e00d93ced6",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://www.valkrai.com/",
+    "checked_at": "2026-10-16T12:49:27.314899+00:00",
+    "status": 200,
+    "final_url": "https://www.valkrai.com/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 15158,
+    "sha256": "9898ade398d595699fb7e4ba3bd19ecd7800b296081b47264d00527ba0dfbbaf",
+    "title": "valkrai.com | Operational venture brief",
+    "headings": [
+      "valkrai.com",
+      "Who it serves",
+      "How it earns",
+      "Why it compounds",
+      "Availability without invention.",
+      "Multi-domain track fusion",
+      "Get notified about the full product",
+      "Ask about valkrai.com"
+    ],
+    "links": []
+  },
+  {
+    "url": "https://www.valkrai.com/blog.html",
+    "checked_at": "2026-10-16T12:49:27.345726+00:00",
+    "status": 404,
+    "final_url": "https://www.valkrai.com/blog.html",
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 10,
+    "sha256": "7515bf959b73b956ceb967351c7e299cbb3668a53d35f9c770eb72e00d93ced6",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://faces.valkrai.com/",
+    "checked_at": "2026-10-16T12:49:27.346355+00:00",
+    "status": 200,
+    "final_url": "https://faces.valkrai.com/",
+    "content_type": "text/html",
+    "bytes": 7003,
+    "sha256": "dfe92236776c1426bea3238f35ae745c40e7f2dac8d709f78b5c08d4b015ad77",
+    "title": "Faces \u2014 Valkrai form studies",
+    "headings": [
+      "Find the form.<br><em>Refine the detail.</em>",
+      "Small moves.<br>Visible changes."
+    ],
+    "links": [
+      "data:,",
+      "style.css",
+      "./",
+      "about.html"
+    ]
+  },
+  {
+    "url": "https://faces.valkrai.com/about",
+    "checked_at": "2026-10-16T12:49:27.351212+00:00",
+    "status": 200,
+    "final_url": "https://faces.valkrai.com/about",
+    "content_type": "text/html",
+    "bytes": 7630,
+    "sha256": "f415eca460fa89297c4387663a68d8a832fac4f25e0768d61195999c1edf0ffc",
+    "title": "Method \u2014 Valkrai Faces",
+    "headings": [
+      "A study in editable form.",
+      "What a measurement means",
+      "Eye and mouth integration in v0.3",
+      "Different forms, one material",
+      "Coarse to fine, with a way back",
+      "Rendering cost and limits",
+      "Historical context"
+    ],
+    "links": [
+      "style.css",
+      "./",
+      "./",
+      "https://www.rct.uk/collection/stories/leonardo-in-the-royal-collection/leonardos-study-of-anatomy",
+      "./"
+    ]
+  },
+  {
+    "url": "https://faces.valkrai.com/about.html",
+    "checked_at": "2026-10-16T12:49:27.383983+00:00",
+    "status": 200,
+    "final_url": "https://faces.valkrai.com/about",
+    "content_type": "text/html",
+    "bytes": 7630,
+    "sha256": "f415eca460fa89297c4387663a68d8a832fac4f25e0768d61195999c1edf0ffc",
+    "title": "Method \u2014 Valkrai Faces",
+    "headings": [
+      "A study in editable form.",
+      "What a measurement means",
+      "Eye and mouth integration in v0.3",
+      "Different forms, one material",
+      "Coarse to fine, with a way back",
+      "Rendering cost and limits",
+      "Historical context"
+    ],
+    "links": [
+      "style.css",
+      "./",
+      "./",
+      "https://www.rct.uk/collection/stories/leonardo-in-the-royal-collection/leonardos-study-of-anatomy",
+      "./"
+    ]
+  },
+  {
+    "url": "https://faces.valkrai.com/build.json",
+    "checked_at": "2026-10-16T12:49:27.461783+00:00",
+    "status": 200,
+    "final_url": "https://faces.valkrai.com/build.json",
+    "content_type": "application/json",
+    "bytes": 911,
+    "sha256": "e87f2ca8b11deea4ad3bfb6b4f9bede3e6755932821a8faf024bdebd5946ac78",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://faces.valkrai.com/sitemap.xml",
+    "checked_at": "2026-10-16T12:49:27.500782+00:00",
+    "status": 404,
+    "final_url": "https://faces.valkrai.com/sitemap.xml",
+    "content_type": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://faces.valkrai.com/robots.txt",
+    "checked_at": "2026-10-16T12:49:27.503990+00:00",
+    "status": 200,
+    "final_url": "https://faces.valkrai.com/robots.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 1248,
+    "sha256": "8fa3036c68bfcbd32365f6225d24333264093b7cd38d306e106b4dbdc934fd5b",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://faces.valkrai.com/__directory_identity_probe_20261016",
+    "checked_at": "2026-10-16T12:49:27.517641+00:00",
+    "status": 404,
+    "final_url": "https://faces.valkrai.com/__directory_identity_probe_20261016",
+    "content_type": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://valkrais.valkrai.com/",
+    "checked_at": "2026-10-16T12:49:27.538418+00:00",
+    "status": 200,
+    "final_url": "https://valkrais.valkrai.com/",
+    "content_type": "text/html",
+    "bytes": 8659,
+    "sha256": "9a968a353345924adf328811078cdf1d0bac4a3404b2bf41afaac454e821faff",
+    "title": "Valkrai \u2014 Character studies",
+    "headings": [
+      "Identity.<br>Form.<br><i>Flight.</i>",
+      "Three identities.<br><i>Three expressions.</i>",
+      "A conversation<br><i>between forms.</i>",
+      "The architecture<br><i>of wings.</i>",
+      "What is known.<br><i>What is new.</i>",
+      ""
+    ],
+    "links": [
+      "style.css",
+      "#collection",
+      "#top",
+      "#collection",
+      "#compare",
+      "#origins",
+      "#collection",
+      "assets/eir-concept-v01.png",
+      "assets/brynhildr-concept-v01.png",
+      "assets/skuld-concept-v01.png",
+      "provenance.json",
+      "#top",
+      "#collection"
+    ]
+  },
+  {
+    "url": "https://valkrais.valkrai.com/provenance.json",
+    "checked_at": "2026-10-16T12:49:27.639716+00:00",
+    "status": 200,
+    "final_url": "https://valkrais.valkrai.com/provenance.json",
+    "content_type": "application/json",
+    "bytes": 2321,
+    "sha256": "21c43c631eb14976acea411aae608e380c35cb88cb6b37d48a46be1da38c73c0",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://valkrais.valkrai.com/sitemap.xml",
+    "checked_at": "2026-10-16T12:49:27.703329+00:00",
+    "status": 404,
+    "final_url": "https://valkrais.valkrai.com/sitemap.xml",
+    "content_type": "text/html",
+    "bytes": 716,
+    "sha256": "40b3501b57fc0b2041e3313c73fcd66d2df5069655c189539860f69ca82ccbab",
+    "title": "Not found \u2014 Valkrai",
+    "headings": [
+      "This page is outside the collection."
+    ],
+    "links": [
+      "/"
+    ]
+  },
+  {
+    "url": "https://valkrais.valkrai.com/robots.txt",
+    "checked_at": "2026-10-16T12:49:27.711830+00:00",
+    "status": 200,
+    "final_url": "https://valkrais.valkrai.com/robots.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 1248,
+    "sha256": "8fa3036c68bfcbd32365f6225d24333264093b7cd38d306e106b4dbdc934fd5b",
+    "title": null,
+    "headings": [],
+    "links": []
+  },
+  {
+    "url": "https://valkrais.valkrai.com/__directory_identity_probe_20261016",
+    "checked_at": "2026-10-16T12:49:27.719375+00:00",
+    "status": 404,
+    "final_url": "https://valkrais.valkrai.com/__directory_identity_probe_20261016",
+    "content_type": "text/html",
+    "bytes": 716,
+    "sha256": "40b3501b57fc0b2041e3313c73fcd66d2df5069655c189539860f69ca82ccbab",
+    "title": "Not found \u2014 Valkrai",
+    "headings": [
+      "This page is outside the collection."
+    ],
+    "links": [
+      "/"
+    ]
+  },
+  {
+    "url": "https://routes.valkrai.com/",
+    "checked_at": "2026-10-16T12:49:27.720686+00:00",
+    "status": 522,
+    "final_url": "https://routes.valkrai.com/",
+    "content_type": "text/plain; charset=UTF-8",
+    "bytes": 16,
+    "sha256": "c8b9f348c8635d7ffcd5d16ad4b9c65289302dc6c4fe2e0210346b23013fb280",
+    "title": null,
+    "headings": [],
+    "links": []
+  }
+]
