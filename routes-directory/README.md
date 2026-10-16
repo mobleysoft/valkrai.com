@@ -1,6 +1,8 @@
 # Valkrai public route directory
 
-Authorized public target: https://routes.valkrai.com/. Buildless static files in `public/` only. No runtime code, service/storage bindings, login, purchases, uploads, external dependencies or client analytics. Public website publication is authorized; public source push is not part of this release.
+Authorized public target: https://routes.valkrai.com/. Buildless static files in `public/` only. No runtime code, service/storage bindings, login, purchases, uploads, external dependencies or client analytics. `Cache-Control: public, no-transform` prevents the existing zone-level Web Analytics injector from modifying this directory HTML; the directory CSP also excludes external scripts and connections. No shared zone analytics setting is changed. Official reference: https://developers.cloudflare.com/web-analytics/get-started/.
+
+Public website publication is authorized; public source push is not part of this release.
 
 ## Inventory and scope
 
