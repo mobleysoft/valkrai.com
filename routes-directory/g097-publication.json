@@ -1,0 +1,14 @@
+{
+  "goal": "g097",
+  "status": "reviewed-published-live-verified",
+  "reviewedCommit": "4fe242d5b3e641621ec55728103d2f89dd7ea86d",
+  "reviewReceipt": "/Users/johnmobley/Documents/Codex/2026-10-14/task/valkrai-corporate-independent-review/acceptance.json",
+  "versionID": "6579c8bc-4c10-4202-9813-752a12081aff",
+  "deploymentID": "042e1645-2a40-42bf-a9fe-3c846a22d495",
+  "evidenceDirectory": "/Users/johnmobley/Documents/Codex/2026-10-16/task-10/g097-release/evidence",
+  "rollbackVersionID": "fe84b61f-75ad-4aa3-9fc8-b5ea17eba410",
+  "rollbackBundle": "/Users/johnmobley/Documents/Codex/2026-10-16/task-10/candidate",
+  "rollbackScope": "Restore prior HQ version/bundle with current routes, domain attachments and FLEET binding unchanged. Do not revert to initial static-only directory version. Fresh ownership verification required.",
+  "publicationProcess": "Frozen candidate safe-deploy.sh remains disabled for future changes. Owner publication used guarded g097-release/publish-reviewed.sh tied to the exact independent acceptance receipt.",
+  "exactSnapshotNotes": "Exact accepted corporate snapshot published; source manifest does not assert deployment. Actual gameplay integration remains separately pending acceptance. Root contains exactly one restrained Gaming division link."
+}

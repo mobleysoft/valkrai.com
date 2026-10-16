@@ -1,12 +1,12 @@
 {
-  "schema": "valkrai.headquarters/1",
-  "release": "hq-g093-candidate-1",
-  "divisions": [
-    "Games",
-    "Defense"
-  ],
-  "galleryRelease": "roster24-e42afd7fc389",
-  "artStatus": "Provisional AI-generated 2D concepts, not final character acceptance",
-  "gameStatus": "Local prototype; public release pending",
-  "status": "Frozen local candidate pending independent review; not published"
+  "schema": "valkrai.headquarters/2",
+  "release": "hq-g097-corporate-1",
+  "kind": "corporate-headquarters",
+  "sourceGoal": "g097",
+  "divisionLinks": {
+    "gaming": "/games",
+    "defense": "/defense-preview"
+  },
+  "maturity": "Authored AUI architecture; manual reference tool available; broader software systems in development",
+  "publication": "Consult the owner publication receipt for deployed version and verification; this source manifest does not assert deployment."
 }
