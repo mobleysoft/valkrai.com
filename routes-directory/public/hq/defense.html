@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Valkrai Defense — Reference calculator preview</title><link rel="stylesheet" href="/hq/style.css"><link rel="stylesheet" href="/hq/defense.css"><script defer src="/hq/defense.js"></script></head><body><header><a class="wordmark" href="/">V<span>Λ</span>LKRAI<small>DEFENSE / REFERENCE PREVIEW</small></a><nav><a href="/#divisions">Headquarters</a><a href="https://routes.valkrai.com/">Route directory ↗</a></nav></header><main class="section"><p class="eyebrow">DEFENSE DIVISION / MANUAL REFERENCE UTILITY</p><h1>Compare fictional tracks.</h1><p class="lead">An existing closest-approach calculator, preserved as a development preview. No live sensor ingestion, asset control, deployed defense product or operational validation is claimed. Use fictional inputs only.</p><section class="cluster fusion" aria-label="Multi-domain track fusion / conflict detector">
+      <h2>Manual track-fusion calculator</h2>
+      <p class="cluster-note">A real Closest Point of Approach (CPA) calculation - the same relative-velocity technique used in naval collision avoidance and air-traffic conflict-prediction tools - run across every pair of tracks you supply, each independently labeled by domain (air/land/sea/cyber/space). Enter tracks as id,domain,x_nm,y_nm,speed_kn,heading_deg, separated by semicolons; this fuses the tracks into one picture and flags any pair projected to come within the conflict threshold - not real sensor fusion, live track ingestion, or command-and-control of any real asset.</p>
+      <form id="fusion-form">
+        <label for="fusion-tracks">Tracks: id, domain, x (nm), y (nm), speed (kn), heading (degrees)</label><input type="text" id="fusion-tracks" placeholder="id,domain,x_nm,y_nm,speed_kn,heading_deg;..." value="alpha,air,0,0,300,90;bravo,sea,40,10,25,270;charlie,land,20,30,15,180">
+        <label for="fusion-threshold">Conflict threshold (nautical miles)</label><input type="number" id="fusion-threshold" placeholder="conflict threshold (nm)" value="5" min="0.1" max="500" step="0.1">
+        <button type="submit">Fuse tracks</button>
+      </form>
+      <pre id="fusion-result" class="cluster-result"></pre>
+      <p id="fusion-pro-status" class="cluster-note"></p>
+      
+      <div class="checkout">
+        <p class="cluster-note">Pro: up to 8 simultaneous tracks instead of 3, 30-day pass - $4.00, real Stripe checkout.</p>
+        <button id="upgrade-btn" type="button">Upgrade to Pro</button>
+      </div>
+    </section><p><a class="text-link" href="/#defense-behind">Try the GameBehind reference challenge ↗</a></p></main></body></html>

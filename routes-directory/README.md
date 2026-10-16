@@ -1,29 +1,11 @@
-# Valkrai public route directory
+# Valkrai headquarters and route hosting
 
-Authorized public target: https://routes.valkrai.com/. Buildless static files in `public/` only. No runtime code, service/storage bindings, login, purchases, uploads, external dependencies or client analytics. `Cache-Control: public, no-transform` prevents the existing zone-level Web Analytics injector from modifying this directory HTML; the directory CSP also excludes external scripts and connections. No shared zone analytics setting is changed. Official reference: https://developers.cloudflare.com/web-analytics/get-started/.
+Existing Worker `valkrai-routes` now serves the conglomerate headquarters at root/www. Games and Defense are the two named divisions; no additional division names were invented. Public art is copied byte-for-byte from the verified concept gallery and remains provisional.
 
-Public website publication is authorized; public source push is not part of this release.
+`public/hq/` contains the authored homepage, concept artwork and calculator preview. `worker.js` serves that content on root/www; forwards all other requests unchanged to existing `mobley-venture-fleet-a`; and preserves the existing directory assets at routes.valkrai.com. The exact venture.json routes remain owned by getventures. Existing session_id checkout callbacks go to the retained calculator preview.
 
-## Inventory and scope
+Original directory bytes are recorded in directory-baseline.json. Its dated inventory remains a snapshot. The previous build.py concerns that old directory snapshot only; do not use it to regenerate the headquarters. There is no framework build.
 
-Four distinct visitor pages: Valkrai homepage, Faces Lab, Faces Method, and character atelier. Five gallery section links and one calculator anchor provide deeper navigation. Seven supporting metadata URLs are in a disclosure. Root `/index.html` and `www` are duplicates, not extra pages. HTTP identity checks include titles, headings and missing-path controls; the homepage and both aliases had identical SHA-256 at check time. No data-changing APIs or forms were exercised. `/breach`, `/blog.html`, `/privacy` and `/support` returned 404 and are excluded.
+Offline verification: `python3 check_release.py` and `node --test worker.test.mjs`. Publish only with `bash safe-deploy.sh`, after a scoped commit, with an unchanged remote deployment/routing preflight and live verification. The safe wrapper uses the estate safety library and existing OAuth without scope or credential changes. Only public/ is deployed, not private tests, receipts or local paths.
 
-The hosting inventory checked the exact zone Worker Routes API, account custom domains, Valkrai Workers and the existing `valkrai-com` Pages project. Only Faces and gallery custom hostnames existed before release; root/www remain owned by the fleet. Pages has only its pages.dev domain and is separate from the live homepage. DNS-record reads returned 403 using existing credentials, so DNS-only subdomains remain a stated coverage gap. No scopes or credentials were added. Source records and current HTML/manifests were inspected; source existence alone did not qualify a route.
-
-Private/admin pages, unpublished candidates and archive paths are excluded. Implementation assets and broad fleet APIs are outside the visitor page directory. A successful page response does not mean every feature or visual quality passes. Coverage and timestamp are visible on the page and in `public/inventory.json`; there is no automatic monitoring.
-
-## Build and verify
-
-`python3 build.py` regenerates HTML, inventory, supporting files and hashes using the checked public evidence. `public/style.css` is maintained source. `node --check public/app.js` checks the small progressive-enhancement search. All cards and links work without JavaScript.
-
-Preview: `python3 -m http.server 8886 --bind 127.0.0.1 --directory public`.
-
-Local browser QA used installed offscreen Chromium at 1440, 768, 390 and 320 CSS pixels: no overflow, four visible cards, live search and empty state, metadata disclosure, direct links and no-JavaScript behavior. These are viewport tests, not physical-phone tests. Evidence is retained in this task workspace, separate from the public bundle.
-
-## Publish and rollback
-
-Use `bash safe-deploy.sh` from this directory after the path-scoped source commit. It sources the estate safety library, requires clean `main` for this subdirectory, validates exact host and public-file hashes, uses the already-authorized existing OAuth session and live-verifies the inventory schema. Release CLI: existing Wrangler 4.129.1. It creates static-only hosting on the existing Cloudflare account for this exact hostname; no backend services, credentials, permissions or paid products are provisioned. Workers.dev and preview URLs are disabled.
-
-Before release, `routes.valkrai.com` returned 522 and had no dedicated custom-domain attachment or exact Worker route. For the first-release rollback, freshly inspect the custom domains API and remove only the exact `routes.valkrai.com` attachment owned by `valkrai-routes`, returning the hostname to its prior behavior. Do not change fleet/root/www, Faces, gallery, existing Pages content or any wildcard DNS. Keep the static Worker version as a recoverable artifact. For later releases, save current version/deployment IDs and hashes, then redeploy the prior exact public bundle or inspect supported version rollback before use. No rollback is performed as part of routine verification.
-
-The homepage was inspected read-only. It currently presents an operational venture brief and manual CPA calculator rather than the character/Faces theme. It was not modified by this release.
+Rollback evidence and the previous public bundle are retained at /Users/johnmobley/Documents/Codex/2026-10-16/task-10/rollback and evidence. Previous static Worker version: c374b353-b17a-4b48-9c30-0a224e46f2ef. Before rollback, freshly verify hosting ownership/version and exact original route IDs; restore root/www catchalls to mobley-venture-fleet-a before rolling back valkrai-routes, as its former static-only version cannot forward those requests. Preserve the routes.valkrai.com domain attachment and gallery/Faces hosting. No rollback is performed during normal checks.
