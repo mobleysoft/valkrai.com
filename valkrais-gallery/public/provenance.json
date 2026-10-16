@@ -1,0 +1,71 @@
+{
+  "title": "Valkrai Character Atelier",
+  "release": "concept-edition-01",
+  "status": "new concepts, not approved visual canon",
+  "identity_sources": [
+    {
+      "record": "AuiValkyries.json",
+      "entries": {
+        "C1": "Eir \u2014 Queen of Creation",
+        "C3": "Brynhildr \u2014 Queen of Command",
+        "C7": "Skuld \u2014 Queen of Cognizance"
+      }
+    },
+    {
+      "record": "beings_api.json",
+      "entries": {
+        "158": "Eir Mercy \u2014 C1 Foundation",
+        "160": "Brynhildr Shield \u2014 C3 Foundation",
+        "164": "Skuld Future \u2014 C7 Foundation"
+      }
+    }
+  ],
+  "design_direction": {
+    "wings": "Confirmed current brief",
+    "vitruvian": "Fictional anatomy; opaque coverage independent of wing motion"
+  },
+  "artworks": [
+    {
+      "file": "assets/brynhildr-concept-v01.png",
+      "sha256": "2db7b5cd718b2868dfdc64ca1306c7336c2c066412c0fc6e6942b24820200522",
+      "bytes": 2544850,
+      "kind": "new AI-generated concept study",
+      "version": "0.1",
+      "created_at": "2026-10-16",
+      "reference_images": []
+    },
+    {
+      "file": "assets/eir-concept-v01.png",
+      "sha256": "8081455b82b6ac4a89c312eebd06b450ef9e8e44cc9c48ebc71fa5dd9d2657ff",
+      "bytes": 2718138,
+      "kind": "new AI-generated concept study",
+      "version": "0.1",
+      "created_at": "2026-10-16",
+      "reference_images": []
+    },
+    {
+      "file": "assets/skuld-concept-v01.png",
+      "sha256": "19fd35dfe51b0a433bce631e01ec9ef0305b5ba2004544caf55a74241afc27f1",
+      "bytes": 2540004,
+      "kind": "new AI-generated concept study",
+      "version": "0.1",
+      "created_at": "2026-10-16",
+      "reference_images": []
+    },
+    {
+      "file": "assets/vitruvian-valkrai-v01.png",
+      "sha256": "80eada09849b9b64480580723ce87429226f495b7793b69a4dfe28d5dc4d4f8e",
+      "bytes": 3176163,
+      "kind": "new AI-generated concept study",
+      "version": "0.1",
+      "created_at": "2026-10-16",
+      "reference_images": []
+    }
+  ],
+  "limits": {
+    "archived_visuals_found": false,
+    "character_3d_models_found": false,
+    "source_records_are_not_visual_versions": true
+  },
+  "rights_note": "Original concept artwork generated for this project with no reference image or third-party character input. No claim of exclusive legal copyright is made."
+}
