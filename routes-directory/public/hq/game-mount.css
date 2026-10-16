@@ -1,0 +1,1 @@
+.game-mount{margin:2rem 0;border:1px solid #66766b;background:#101815}.game-mount iframe{display:block;width:100%;height:min(80vh,800px);min-height:480px;border:0}.game-mount iframe:focus-visible{outline:3px solid #aadc9b;outline-offset:3px}@media(max-width:650px){.game-mount iframe{height:78svh;min-height:568px}}

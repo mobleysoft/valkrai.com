@@ -1,3 +1,4 @@
+import {GAME_FILES} from './game-files.js';
 // Existing Valkrai static host; all unrelated root requests retain the fleet boundary.
 const HQ_HOSTS=new Set(['valkrai.com','www.valkrai.com']);
 const READ_METHODS=new Set(['GET','HEAD']);
@@ -8,6 +9,10 @@ export default {
   const url=new URL(request.url);
   if(url.hostname==='routes.valkrai.com'){
    let path;try{path=decodeURIComponent(url.pathname)}catch{return new Response('Invalid path',{status:400,headers:{'Cache-Control':'no-store'}})}
+   if(path==='/games/valkrai'||path.startsWith('/games/valkrai/')){
+    if(!READ_METHODS.has(request.method))return methodNotAllowed();
+    const canonical=new URL(url);canonical.hostname='valkrai.com';canonical.pathname=path;return Response.redirect(canonical.toString(),308);
+   }
    if(path==='/hq'||path.startsWith('/hq/')){
     if(!READ_METHODS.has(request.method))return methodNotAllowed();
     const canonical=new URL(url);canonical.hostname='valkrai.com';canonical.pathname=path;
@@ -19,9 +24,17 @@ export default {
    return env.ASSETS.fetch(request);
   }
   if(!HQ_HOSTS.has(url.hostname))return new Response('Unknown host',{status:404,headers:{'Cache-Control':'no-store'}});
+  const game=url.pathname==='/games/valkrai'||url.pathname.startsWith('/games/valkrai/');
+  if(game){
+   if(!READ_METHODS.has(request.method))return methodNotAllowed();
+   if(url.pathname==='/games/valkrai'){url.pathname+='/';return Response.redirect(url.toString(),308)}
+   const name=url.pathname.slice('/games/valkrai/'.length)||'index.html';
+   if(!GAME_FILES.has(name))return new Response('Not found',{status:404,headers:{'Cache-Control':'no-store'}});
+  }
   const home=url.pathname==='/'||url.pathname==='/index.html';
   let asset;
-  if(home)asset='/hq/index.html';
+  if(game)asset=url.pathname==='/games/valkrai/'?'/games/valkrai/index.html':url.pathname;
+  else if(home)asset='/hq/index.html';
   else if(url.pathname==='/games'||url.pathname==='/games/')asset='/hq/games.html';
   else if(url.pathname==='/defense-preview'||url.pathname==='/defense-preview/')asset='/hq/defense.html';
   else if(url.pathname.startsWith('/hq/'))asset=url.pathname;
@@ -40,7 +53,7 @@ export default {
   const headers=new Headers(response.headers);
   headers.set('X-Valkrai-Release',RELEASE);
   headers.set('Cache-Control',response.status>=400?'no-store':response.status===200&&asset.includes('/assets/')?'public, max-age=31536000, immutable, no-transform':'public, max-age=0, must-revalidate, no-transform');
-  headers.set('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'");
+  headers.set('Content-Security-Policy',`default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors ${game?"'self'":"'none'"}`);
   return new Response(response.body,{status:response.status,headers});
  }
 };

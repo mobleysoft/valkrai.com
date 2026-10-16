@@ -1,0 +1,159 @@
+{
+  "schema": "valkrai.g098.public-runtime/1",
+  "sourceCommit": "533d8a53ef23b4e76e42fd2efb2fe1bbf342dee3",
+  "acceptanceReceipt": "/Users/johnmobley/Documents/Codex/2026-10-14/task/valkrai-game-fix-independent-review/acceptance.json",
+  "mount": "/games/valkrai/",
+  "embed": "/games/valkrai/?embed",
+  "files": {
+    "index.html": {
+      "sha256": "c97dd40a2e719c1a7a63b9db18cd5d2e8fc3930e240cbbca9fbbeff6295a7319",
+      "bytes": 4341
+    },
+    "style.css": {
+      "sha256": "f8ffc0967af83eae28c3178e17a57c44d3b47e7acf4d4a833f79b87eb124b0c9",
+      "bytes": 9084
+    },
+    "game.mjs": {
+      "sha256": "6d6364c7b8eb2269cd466fd736a0eadad8b26dd0c72ce822ced32f40f9a7d19f",
+      "bytes": 20682
+    },
+    "engine.mjs": {
+      "sha256": "da329d7665451c3b68d8c30fe2c7943bdf160dc5af23b0d8389b6acef7b72ee0",
+      "bytes": 9483
+    },
+    "session.mjs": {
+      "sha256": "3f1bf486c091f280b756c7560e7db6c9dd9acc50a556450b2b48f8d73c8c142a",
+      "bytes": 399
+    },
+    "progression.mjs": {
+      "sha256": "d298f05406ea55ff94e30f330305bb887fd07e1f9e456f219f7700502f753303",
+      "bytes": 1062
+    },
+    "rig.mjs": {
+      "sha256": "7d329f4218e45549e2df0926db5fae2bda014c3a7b6b211c13b9ed11e0285420",
+      "bytes": 11468
+    },
+    "eir-surface.mjs": {
+      "sha256": "a0e1e7e8452fae63d1921082780f743164d9fc00457b90a3cef6b56346b7a8cf",
+      "bytes": 7167
+    },
+    "mesh-tools.mjs": {
+      "sha256": "fbea6c4074f5d3165184f3301cd0c740d8c20bc72c64e2e6d642b8c61b189236",
+      "bytes": 4240
+    },
+    "render3d.mjs": {
+      "sha256": "5c06c4379b9d8a3ef0f8ffec828023473f3bed9cbf53a01c0d7917dd00caddcf",
+      "bytes": 6006
+    },
+    "source/eir-head-resolved.mjs": {
+      "sha256": "acead936228d9f705dd1c0140d467dadd3214332b48cc4c51565a8e76eb17035",
+      "bytes": 2217024
+    },
+    "characters.json": {
+      "sha256": "fdfc6bda1cecebacd7b49ec050ee004def6e18de2713a70c9d0a9acd44dd61cf",
+      "bytes": 13018
+    },
+    "lore.json": {
+      "sha256": "a892dae37b515aec4605b9bf9ad2480837c6f9a0038b35463c9d35c838e4322a",
+      "bytes": 6464
+    },
+    "concepts/C01-eir-v03-66f2cf5512e4.png": {
+      "sha256": "66f2cf5512e45afa1874b3b625726ff4882f706274544f49cbd6e044b3b905e8",
+      "bytes": 2304394
+    },
+    "concepts/C02-verdandi-v02-e10799bff29d.png": {
+      "sha256": "e10799bff29da6505c8dd08d18f404fc5645d3c0a789fa640a095769aefda473",
+      "bytes": 2604003
+    },
+    "concepts/C03-brynhildr-v03-4d38c4c67179.png": {
+      "sha256": "4d38c4c6717999c542e58d10183153a9777a38583c283d939987ba267caf2b17",
+      "bytes": 2264039
+    },
+    "concepts/C04-reginleif-v02-98c39ee2e106.png": {
+      "sha256": "98c39ee2e1061b5dd4d91e870a7e3f8ad7de5bfb6407f06be545e071d728ef51",
+      "bytes": 2586976
+    },
+    "concepts/C05-hrist-v02-5447393560aa.png": {
+      "sha256": "5447393560aa6fde048abfca78d18a0492fe9e403830ab7dddfa97280fac47d2",
+      "bytes": 2600519
+    },
+    "concepts/C06-gondul-v01-ac218d582888.png": {
+      "sha256": "ac218d58288887b1134e2e350cd48c0d4908310df5e98bb1039c7ef060fb4c9d",
+      "bytes": 2629145
+    },
+    "concepts/C07-skuld-v03-70092da2a27b.png": {
+      "sha256": "70092da2a27b658ffc1cba6bba8992a3780ea792639e22071c2003753143c2f0",
+      "bytes": 2282561
+    },
+    "concepts/C08-hervor-v01-b3d3e994fcc4.png": {
+      "sha256": "b3d3e994fcc4ab0a3056b15f44b3da399eb776d21b758376c3558b584ef75280",
+      "bytes": 2688051
+    },
+    "concepts/C09-rota-v01-8409f5bd7374.png": {
+      "sha256": "8409f5bd73742903d40d3004de2ec1edcfa0ca89d3090eb909549e2460321b4d",
+      "bytes": 2753454
+    },
+    "concepts/C10-sigrun-v03-c75ffcdbd1c0.png": {
+      "sha256": "c75ffcdbd1c026345eaa4e440ff9413a831b7246ca768fdac0a99348f33e4630",
+      "bytes": 2341112
+    },
+    "concepts/C11-mist-v01-295f47d29d11.png": {
+      "sha256": "295f47d29d11f544c364bf0abfc0d8321baabaf8b5e2a12a4a2562399d5981ba",
+      "bytes": 2677385
+    },
+    "concepts/C12-svava-v01-1dbcd8786ae9.png": {
+      "sha256": "1dbcd8786ae93afcf0cdea66f6b0f395adfb920f014125a3a90df343a79ee45d",
+      "bytes": 2549389
+    },
+    "concepts/C13-olrun-v02-25678c99d7d8.png": {
+      "sha256": "25678c99d7d840b08752212393a87dcd554c2fafa5df84855be65a266ea94aef",
+      "bytes": 2586541
+    },
+    "concepts/C14-geirskogul-v01-49ffe8783272.png": {
+      "sha256": "49ffe8783272f458345e28b48ddfa3e977f8ab3703866a2ddbe9f5c6bf2cf343",
+      "bytes": 2825315
+    },
+    "concepts/C15-alvitr-v02-d22770c2784a.png": {
+      "sha256": "d22770c2784a7f5d472b020bf162f0bd8948c6a73864fb88f4bf51650f7e099e",
+      "bytes": 2624877
+    },
+    "concepts/C17-hlokk-v02-e0f8f52d9d43.png": {
+      "sha256": "e0f8f52d9d4336956703e99b0a88ccc75b18d10cf0b7a22b97eba8c69462fe65",
+      "bytes": 2470243
+    },
+    "concepts/C18-kara-v02-aa7e34dda889.png": {
+      "sha256": "aa7e34dda889f489012b8d47c536a7d27cf3a849135e4c04c9ba81bda56d17d9",
+      "bytes": 2405223
+    },
+    "concepts/C19-eisa-v01-3732b73f6993.png": {
+      "sha256": "3732b73f69934ecb3c5d8bcf6970976eb913821342da4a0ed3271f3929be9458",
+      "bytes": 2830372
+    },
+    "concepts/C20-astrid-v01-19a89efd4bbc.png": {
+      "sha256": "19a89efd4bbcce17f0062172f0a714705e4481946964bd70236669aa287cefaf",
+      "bytes": 2426524
+    },
+    "concepts/C21-freydis-v01-001bc7a02f40.png": {
+      "sha256": "001bc7a02f403712d686ab303d376ddb7a305f6541b410eb41bb7f807ea1e979",
+      "bytes": 2530471
+    },
+    "concepts/C22-hildegard-v02-49322be84965.png": {
+      "sha256": "49322be849658078d31a19d85284ad88ec4e4319cf36d0a078b7b8716f254c44",
+      "bytes": 2480043
+    },
+    "concepts/C23-selvie-v01-02789fe351b8.png": {
+      "sha256": "02789fe351b808cbcdf2e36cc83e0a98e049727962912d946d0cf74c99492044",
+      "bytes": 2787871
+    },
+    "concepts/C24-rhune-v01-19428dca5886.png": {
+      "sha256": "19428dca58860a22c627754c7fcf7b1ba17bb959e808b16aa54bfee588dfc1eb",
+      "bytes": 2636246
+    },
+    "concepts/C26-alsint-v01-a58b75a0ba98.png": {
+      "sha256": "a58b75a0ba9820bafa352072e6182870d9e86b6cb026bfd5f873815ee6439cd6",
+      "bytes": 2753208
+    }
+  },
+  "runtimeSourceModuleNote": "source/eir-head-resolved.mjs is an imported runtime geometry module, unchanged; editors and other source experiments excluded.",
+  "notPublished": true
+}

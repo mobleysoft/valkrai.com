@@ -1,0 +1,14 @@
+{
+  "goal": "g098",
+  "status": "reviewed-published-live-verified",
+  "reviewedCommit": "eb06e736025c7f3110e6eaadcd3f9d42a6a3ebae",
+  "reviewReceipt": "/Users/johnmobley/Documents/Codex/2026-10-14/task/valkrai-game-host-independent-review/acceptance.json",
+  "versionID": "26551842-6c2c-4ecd-a8ca-2f2cfb1d7461",
+  "deploymentID": "dda493a8-ad5b-4c29-b6a0-d7bc35d1bc4e",
+  "evidenceDirectory": "/Users/johnmobley/Documents/Codex/2026-10-16/task-10/g098-release/evidence",
+  "rollbackVersionID": "6579c8bc-4c10-4202-9813-752a12081aff",
+  "rollbackBundle": "/Users/johnmobley/Documents/Codex/2026-10-16/task-10/g097-candidate",
+  "rollbackScope": "Restore prior HQ version/bundle with current routes, domain attachments and FLEET binding unchanged. Do not revert to initial static-only directory version. Fresh ownership verification required.",
+  "publicationProcess": "Frozen candidate safe-deploy.sh remains disabled for future changes. Owner publication used guarded g098-release/publish-reviewed.sh tied to the exact independent acceptance receipt.",
+  "exactSnapshotNotes": "Exact accepted corporate snapshot published; source manifest does not assert deployment. Same accepted C1 training proxy mounted only on the gaming division and selector; production art/g100 remain unaccepted. Root contains exactly one restrained Gaming division link."
+}

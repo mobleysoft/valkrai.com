@@ -1,0 +1,549 @@
+[
+  {
+    "id": "eir",
+    "name": "Eir",
+    "slotIDs": [
+      "C1",
+      "C25"
+    ],
+    "role": "Queen of Creation · Queen of Cosmologies",
+    "slots": [
+      {
+        "id": "C1",
+        "function": "C1 - Create",
+        "title": "Valkyrie: Eir-C01 - Queen of Creation",
+        "aliases": [
+          "Eir",
+          "Eir Mercy"
+        ]
+      },
+      {
+        "id": "C25",
+        "function": "C25 - Cosmologize",
+        "title": "Valkyrie: Eir-C25 - Queen of Cosmologies",
+        "aliases": [
+          "Eir",
+          "Eir Ascendant"
+        ]
+      }
+    ],
+    "sha256": "66f2cf5512e45afa1874b3b625726ff4882f706274544f49cbd6e044b3b905e8",
+    "art": "concepts/C01-eir-v03-66f2cf5512e4.png",
+    "available": true
+  },
+  {
+    "id": "verdandi",
+    "name": "Verdandi",
+    "slotIDs": [
+      "C2"
+    ],
+    "role": "Queen of Computation",
+    "slots": [
+      {
+        "id": "C2",
+        "function": "C2 - Compute",
+        "title": "Valkyrie: Verdandi-C02 - Queen of Computation",
+        "aliases": [
+          "Verdandi",
+          "Verdandi Present"
+        ]
+      }
+    ],
+    "sha256": "e10799bff29da6505c8dd08d18f404fc5645d3c0a789fa640a095769aefda473",
+    "art": "concepts/C02-verdandi-v02-e10799bff29d.png",
+    "available": false
+  },
+  {
+    "id": "brynhildr",
+    "name": "Brynhildr",
+    "slotIDs": [
+      "C3"
+    ],
+    "role": "Queen of Command",
+    "slots": [
+      {
+        "id": "C3",
+        "function": "C3 - Command",
+        "title": "Valkyrie: Brynhildr-C03 - Queen of Command",
+        "aliases": [
+          "Brynhildr",
+          "Brynhildr Shield"
+        ]
+      }
+    ],
+    "sha256": "4d38c4c6717999c542e58d10183153a9777a38583c283d939987ba267caf2b17",
+    "art": "concepts/C03-brynhildr-v03-4d38c4c67179.png",
+    "available": false
+  },
+  {
+    "id": "reginleif",
+    "name": "Reginleif",
+    "slotIDs": [
+      "C4"
+    ],
+    "role": "Queen of Control",
+    "slots": [
+      {
+        "id": "C4",
+        "function": "C4 - Control",
+        "title": "Valkyrie: Reginleif-C04 - Queen of Control",
+        "aliases": [
+          "Reginleif",
+          "Reginleif Judgment"
+        ]
+      }
+    ],
+    "sha256": "98c39ee2e1061b5dd4d91e870a7e3f8ad7de5bfb6407f06be545e071d728ef51",
+    "art": "concepts/C04-reginleif-v02-98c39ee2e106.png",
+    "available": false
+  },
+  {
+    "id": "hrist",
+    "name": "Hrist",
+    "slotIDs": [
+      "C5"
+    ],
+    "role": "Queen of Coevolution",
+    "slots": [
+      {
+        "id": "C5",
+        "function": "C5 - Coevolution",
+        "title": "Valkyrie: Hrist-C05 - Queen of Coevolution",
+        "aliases": [
+          "Hrist",
+          "Hrist Tremor"
+        ]
+      }
+    ],
+    "sha256": "5447393560aa6fde048abfca78d18a0492fe9e403830ab7dddfa97280fac47d2",
+    "art": "concepts/C05-hrist-v02-5447393560aa.png",
+    "available": false
+  },
+  {
+    "id": "gondul",
+    "name": "Göndul",
+    "slotIDs": [
+      "C6"
+    ],
+    "role": "Queen of Conquest",
+    "slots": [
+      {
+        "id": "C6",
+        "function": "C6 - Conquest",
+        "title": "Valkyrie: Göndul-C06 - Queen of Conquest",
+        "aliases": [
+          "Göndul",
+          "Gondul Wand"
+        ]
+      }
+    ],
+    "sha256": "ac218d58288887b1134e2e350cd48c0d4908310df5e98bb1039c7ef060fb4c9d",
+    "art": "concepts/C06-gondul-v01-ac218d582888.png",
+    "available": false
+  },
+  {
+    "id": "skuld",
+    "name": "Skuld",
+    "slotIDs": [
+      "C7"
+    ],
+    "role": "Queen of Cognizance",
+    "slots": [
+      {
+        "id": "C7",
+        "function": "C7 - Computation",
+        "title": "Valkyrie: Skuld-C07 - Queen of Cognizance",
+        "aliases": [
+          "Skuld",
+          "Skuld Future"
+        ]
+      }
+    ],
+    "sha256": "70092da2a27b658ffc1cba6bba8992a3780ea792639e22071c2003753143c2f0",
+    "art": "concepts/C07-skuld-v03-70092da2a27b.png",
+    "available": false
+  },
+  {
+    "id": "hervor",
+    "name": "Hervor",
+    "slotIDs": [
+      "C8"
+    ],
+    "role": "Queen of Countermeasures",
+    "slots": [
+      {
+        "id": "C8",
+        "function": "C8 - Cognizance",
+        "title": "Valkyrie: Hervor-C08 - Queen of Countermeasures",
+        "aliases": [
+          "Hervor",
+          "Hervor Blade"
+        ]
+      }
+    ],
+    "sha256": "b3d3e994fcc4ab0a3056b15f44b3da399eb776d21b758376c3558b584ef75280",
+    "art": "concepts/C08-hervor-v01-b3d3e994fcc4.png",
+    "available": false
+  },
+  {
+    "id": "rota",
+    "name": "Róta",
+    "slotIDs": [
+      "C9",
+      "C16"
+    ],
+    "role": "Queen of Convergence",
+    "slots": [
+      {
+        "id": "C9",
+        "function": "C9 - Countermeasures",
+        "title": "Valkyrie: Róta-C09 - Queen of Convergence",
+        "aliases": [
+          "Róta",
+          "Rota Wheel"
+        ]
+      },
+      {
+        "id": "C16",
+        "function": "C16 - Convergence",
+        "title": "Valkyrie: Rota-C16 - Queen of Convergence",
+        "aliases": [
+          "Rota"
+        ]
+      }
+    ],
+    "sha256": "8409f5bd73742903d40d3004de2ec1edcfa0ca89d3090eb909549e2460321b4d",
+    "art": "concepts/C09-rota-v01-8409f5bd7374.png",
+    "available": false
+  },
+  {
+    "id": "sigrun",
+    "name": "Sigrún",
+    "slotIDs": [
+      "C10"
+    ],
+    "role": "Queen of Culmination",
+    "slots": [
+      {
+        "id": "C10",
+        "function": "C10 - Culmination",
+        "title": "Valkyrie: Sigrún-C10 - Queen of Culmination",
+        "aliases": [
+          "Sigrún",
+          "Sigrun Victory"
+        ]
+      }
+    ],
+    "sha256": "c75ffcdbd1c026345eaa4e440ff9413a831b7246ca768fdac0a99348f33e4630",
+    "art": "concepts/C10-sigrun-v03-c75ffcdbd1c0.png",
+    "available": false
+  },
+  {
+    "id": "mist",
+    "name": "Mist",
+    "slotIDs": [
+      "C11"
+    ],
+    "role": "Queen of Consciousness",
+    "slots": [
+      {
+        "id": "C11",
+        "function": "C11 - Consciousness",
+        "title": "Valkyrie: Mist-C11 - Queen of Consciousness",
+        "aliases": [
+          "Mist",
+          "Mist Veil"
+        ]
+      }
+    ],
+    "sha256": "295f47d29d11f544c364bf0abfc0d8321baabaf8b5e2a12a4a2562399d5981ba",
+    "art": "concepts/C11-mist-v01-295f47d29d11.png",
+    "available": false
+  },
+  {
+    "id": "svava",
+    "name": "Sváva",
+    "slotIDs": [
+      "C12"
+    ],
+    "role": "Queen of Cybernetics",
+    "slots": [
+      {
+        "id": "C12",
+        "function": "C12 - Cybernetics",
+        "title": "Valkyrie: Sváva-C12 - Queen of Cybernetics",
+        "aliases": [
+          "Sváva",
+          "Svava Lullaby"
+        ]
+      }
+    ],
+    "sha256": "1dbcd8786ae93afcf0cdea66f6b0f395adfb920f014125a3a90df343a79ee45d",
+    "art": "concepts/C12-svava-v01-1dbcd8786ae9.png",
+    "available": false
+  },
+  {
+    "id": "olrun",
+    "name": "Olrun",
+    "slotIDs": [
+      "C13"
+    ],
+    "role": "Queen of Cryptogenesis",
+    "slots": [
+      {
+        "id": "C13",
+        "function": "C13 - Cryptogenesis",
+        "title": "Valkyrie: Olrun-C13 - Queen of Cryptogenesis",
+        "aliases": [
+          "Olrun",
+          "Olrun Rune"
+        ]
+      }
+    ],
+    "sha256": "25678c99d7d840b08752212393a87dcd554c2fafa5df84855be65a266ea94aef",
+    "art": "concepts/C13-olrun-v02-25678c99d7d8.png",
+    "available": false
+  },
+  {
+    "id": "geirskogul",
+    "name": "Geirskogul",
+    "slotIDs": [
+      "C14"
+    ],
+    "role": "Queen of Cataclysm",
+    "slots": [
+      {
+        "id": "C14",
+        "function": "C14 - Cataclysm",
+        "title": "Valkyrie: Geirskogul-C14 - Queen of Cataclysm",
+        "aliases": [
+          "Geirskogul",
+          "Geirskogul Spear"
+        ]
+      }
+    ],
+    "sha256": "49ffe8783272f458345e28b48ddfa3e977f8ab3703866a2ddbe9f5c6bf2cf343",
+    "art": "concepts/C14-geirskogul-v01-49ffe8783272.png",
+    "available": false
+  },
+  {
+    "id": "alvitr",
+    "name": "Alvitr",
+    "slotIDs": [
+      "C15"
+    ],
+    "role": "Queen of Celestialization",
+    "slots": [
+      {
+        "id": "C15",
+        "function": "C15 - Celestialization",
+        "title": "Valkyrie: Alvitr-C15 - Queen of Celestialization",
+        "aliases": [
+          "Alvitr",
+          "Alvitr Allwise"
+        ]
+      }
+    ],
+    "sha256": "d22770c2784a7f5d472b020bf162f0bd8948c6a73864fb88f4bf51650f7e099e",
+    "art": "concepts/C15-alvitr-v02-d22770c2784a.png",
+    "available": false
+  },
+  {
+    "id": "hlokk",
+    "name": "Hlökk",
+    "slotIDs": [
+      "C17"
+    ],
+    "role": "Queen of Continuum",
+    "slots": [
+      {
+        "id": "C17",
+        "function": "C17 - Continuum",
+        "title": "Valkyrie: Hlökk-C17 - Queen of Continuum",
+        "aliases": [
+          "Hlökk",
+          "Hlokk Clash"
+        ]
+      }
+    ],
+    "sha256": "e0f8f52d9d4336956703e99b0a88ccc75b18d10cf0b7a22b97eba8c69462fe65",
+    "art": "concepts/C17-hlokk-v02-e0f8f52d9d43.png",
+    "available": false
+  },
+  {
+    "id": "kara",
+    "name": "Kara",
+    "slotIDs": [
+      "C18"
+    ],
+    "role": "Queen of Cosmogenesis",
+    "slots": [
+      {
+        "id": "C18",
+        "function": "C18 - Cosmogenesis",
+        "title": "Valkyrie: Kara-C18 - Queen of Cosmogenesis",
+        "aliases": [
+          "Kara",
+          "Kara Storm"
+        ]
+      }
+    ],
+    "sha256": "aa7e34dda889f489012b8d47c536a7d27cf3a849135e4c04c9ba81bda56d17d9",
+    "art": "concepts/C18-kara-v02-aa7e34dda889.png",
+    "available": false
+  },
+  {
+    "id": "eisa",
+    "name": "Eisa",
+    "slotIDs": [
+      "C19"
+    ],
+    "role": "Queen of Canonization",
+    "slots": [
+      {
+        "id": "C19",
+        "function": "C19 - Canonize",
+        "title": "Valkyrie: Eisa-C19 - Queen of Canonization",
+        "aliases": [
+          "Eisa",
+          "Eisa Ember"
+        ]
+      }
+    ],
+    "sha256": "3732b73f69934ecb3c5d8bcf6970976eb913821342da4a0ed3271f3929be9458",
+    "art": "concepts/C19-eisa-v01-3732b73f6993.png",
+    "available": false
+  },
+  {
+    "id": "astrid",
+    "name": "Astrid",
+    "slotIDs": [
+      "C20"
+    ],
+    "role": "Queen of Control",
+    "slots": [
+      {
+        "id": "C20",
+        "function": "C20 - ClimbDown",
+        "title": "Valkyrie: Astrid-C20 - Queen of Control",
+        "aliases": [
+          "Astrid",
+          "Astrid Star"
+        ]
+      }
+    ],
+    "sha256": "19a89efd4bbcce17f0062172f0a714705e4481946964bd70236669aa287cefaf",
+    "art": "concepts/C20-astrid-v01-19a89efd4bbc.png",
+    "available": false
+  },
+  {
+    "id": "freydis",
+    "name": "Freydis",
+    "slotIDs": [
+      "C21"
+    ],
+    "role": "Queen of Climbdown Integration",
+    "slots": [
+      {
+        "id": "C21",
+        "function": "C21 - Collapse",
+        "title": "Valkyrie: Freydis-C21 - Queen of Climbdown Integration",
+        "aliases": [
+          "Freydis",
+          "Freydis Freedom"
+        ]
+      }
+    ],
+    "sha256": "001bc7a02f403712d686ab303d376ddb7a305f6541b410eb41bb7f807ea1e979",
+    "art": "concepts/C21-freydis-v01-001bc7a02f40.png",
+    "available": false
+  },
+  {
+    "id": "hildegard",
+    "name": "Hildegard",
+    "slotIDs": [
+      "C22"
+    ],
+    "role": "Queen of Camoflauge",
+    "slots": [
+      {
+        "id": "C22",
+        "function": "C22 - Chameleonize",
+        "title": "Valkyrie: Hildegard-C22 - Queen of Camoflauge",
+        "aliases": [
+          "Hildegard",
+          "Hildegard Battle"
+        ]
+      }
+    ],
+    "sha256": "49322be849658078d31a19d85284ad88ec4e4319cf36d0a078b7b8716f254c44",
+    "art": "concepts/C22-hildegard-v02-49322be84965.png",
+    "available": false
+  },
+  {
+    "id": "selvie",
+    "name": "Selvie",
+    "slotIDs": [
+      "C23"
+    ],
+    "role": "Queen of Computronium",
+    "slots": [
+      {
+        "id": "C23",
+        "function": "C23 - Computronium",
+        "title": "Valkyrie: Selvie-C23 - Queen of Computronium",
+        "aliases": [
+          "Selvie",
+          "Selvie Self"
+        ]
+      }
+    ],
+    "sha256": "02789fe351b808cbcdf2e36cc83e0a98e049727962912d946d0cf74c99492044",
+    "art": "concepts/C23-selvie-v01-02789fe351b8.png",
+    "available": false
+  },
+  {
+    "id": "rhune",
+    "name": "Rhune",
+    "slotIDs": [
+      "C24"
+    ],
+    "role": "Queen of Computation",
+    "slots": [
+      {
+        "id": "C24",
+        "function": "C24 - Computronus",
+        "title": "Valkyrie: Rhune-C24 - Queen of Computation",
+        "aliases": [
+          "Rhune",
+          "Rhune Mystery"
+        ]
+      }
+    ],
+    "sha256": "19428dca58860a22c627754c7fcf7b1ba17bb959e808b16aa54bfee588dfc1eb",
+    "art": "concepts/C24-rhune-v01-19428dca5886.png",
+    "available": false
+  },
+  {
+    "id": "alsint",
+    "name": "Alsint",
+    "slotIDs": [
+      "C26"
+    ],
+    "role": "Queen of the Creation's Creation",
+    "slots": [
+      {
+        "id": "C26",
+        "function": "C26 - Cosmolegize",
+        "title": "Valkyrie: Alsint-C26 - Queen of the Creation's Creation",
+        "aliases": [
+          "Alsint",
+          "Alsint Synthesis"
+        ]
+      }
+    ],
+    "sha256": "a58b75a0ba9820bafa352072e6182870d9e86b6cb026bfd5f873815ee6439cd6",
+    "art": "concepts/C26-alsint-v01-a58b75a0ba98.png",
+    "available": false
+  }
+]
