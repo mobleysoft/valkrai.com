@@ -1,29 +1,29 @@
 {
-  "schema": "valkrai.g124.public-runtime/1",
-  "sourceCommit": "5f6f22cfe9eea5b26c499c3dd52ecdb6280cafb4",
-  "acceptance": "Root explicit scoped acceptance and publication clearance received 2026-10-17; shell excluded",
+  "schema": "valkrai.g124.shell.public-runtime/1",
+  "sourceCommit": "e33568ad3f6fc433b209af971b1b03d36940fb1b",
+  "acceptance": "UNPUBLISHED; independent exact candidate acceptance required",
   "mount": "/games/valkrai/",
-  "embed": "/games/valkrai/?embed",
+  "optionalShell": "/games/valkrai/?shell",
   "files": {
     "index.html": {
-      "sha256": "4a665e02cd81ef80d618473c3bfbc156bbca03d64831b79f071bedfab6b208a0",
-      "bytes": 4662
+      "sha256": "9da984165658f299ecfbeb2a05c8256579161802899881fc132a633623991344",
+      "bytes": 4826
     },
     "style.css": {
-      "sha256": "dcb410a8581a0f27f9be1392a087052797261337c00de179b968abd610aecad2",
-      "bytes": 9322
+      "sha256": "722937d721bd6c1ab3f12062e25b787758adcfb6e7fd9260813cf8975528c410",
+      "bytes": 9672
     },
     "game.mjs": {
-      "sha256": "5bed1e129233b899ee536e6cdd7d5a29caad8eaac90fdbfbadf99406ccfc98f4",
-      "bytes": 21425
+      "sha256": "608532cf1319de5876c05e7c56bd396dea2ea38f5a041ccc578e0475ffdad10f",
+      "bytes": 24310
     },
     "engine.mjs": {
-      "sha256": "42f825bf8c8ada7234a164bc43d78797889ca79e2f795d0ade23f1d572701d23",
-      "bytes": 10184
+      "sha256": "a24d96d41fab18ea1e3218f9171402049249469ce68be2240d19df6f6bdc513d",
+      "bytes": 10509
     },
     "locomotion.mjs": {
-      "sha256": "368c11a2894e041e562817bfe842f2cfe6e375968bc3bb34256225fd89da77e9",
-      "bytes": 3087
+      "sha256": "909acd4a47700ec2c07009348970c5cb09831147fb5d9bae98254da5f78a42cf",
+      "bytes": 3446
     },
     "session.mjs": {
       "sha256": "3f1bf486c091f280b756c7560e7db6c9dd9acc50a556450b2b48f8d73c8c142a",
@@ -46,8 +46,8 @@
       "bytes": 4240
     },
     "render3d.mjs": {
-      "sha256": "5c06c4379b9d8a3ef0f8ffec828023473f3bed9cbf53a01c0d7917dd00caddcf",
-      "bytes": 6006
+      "sha256": "de800f073a864bf98d368a1d48f2d49627902b49e1e040bc0f2989b6879dc4a4",
+      "bytes": 6016
     },
     "source/eir-head-resolved.mjs": {
       "sha256": "acead936228d9f705dd1c0140d467dadd3214332b48cc4c51565a8e76eb17035",
@@ -156,6 +156,10 @@
     "concepts/C26-alsint-v01-a58b75a0ba98.png": {
       "sha256": "a58b75a0ba9820bafa352072e6182870d9e86b6cb026bfd5f873815ee6439cd6",
       "bytes": 2753208
+    },
+    "station.mjs": {
+      "sha256": "b51a1a26b7c950dbb4da1b53f3a06ef9d4bf417fdb426d7b281a01c57fbe7750",
+      "bytes": 3004
     }
   }
 }
