@@ -1,25 +1,29 @@
 {
-  "schema": "valkrai.g098.public-runtime/1",
-  "sourceCommit": "533d8a53ef23b4e76e42fd2efb2fe1bbf342dee3",
-  "acceptanceReceipt": "/Users/johnmobley/Documents/Codex/2026-10-14/task/valkrai-game-fix-independent-review/acceptance.json",
+  "schema": "valkrai.g124.public-runtime/1",
+  "sourceCommit": "5f6f22cfe9eea5b26c499c3dd52ecdb6280cafb4",
+  "acceptance": "Root explicit scoped acceptance and publication clearance received 2026-10-17; shell excluded",
   "mount": "/games/valkrai/",
   "embed": "/games/valkrai/?embed",
   "files": {
     "index.html": {
-      "sha256": "c97dd40a2e719c1a7a63b9db18cd5d2e8fc3930e240cbbca9fbbeff6295a7319",
-      "bytes": 4341
+      "sha256": "4a665e02cd81ef80d618473c3bfbc156bbca03d64831b79f071bedfab6b208a0",
+      "bytes": 4662
     },
     "style.css": {
-      "sha256": "f8ffc0967af83eae28c3178e17a57c44d3b47e7acf4d4a833f79b87eb124b0c9",
-      "bytes": 9084
+      "sha256": "dcb410a8581a0f27f9be1392a087052797261337c00de179b968abd610aecad2",
+      "bytes": 9322
     },
     "game.mjs": {
-      "sha256": "6d6364c7b8eb2269cd466fd736a0eadad8b26dd0c72ce822ced32f40f9a7d19f",
-      "bytes": 20682
+      "sha256": "5bed1e129233b899ee536e6cdd7d5a29caad8eaac90fdbfbadf99406ccfc98f4",
+      "bytes": 21425
     },
     "engine.mjs": {
-      "sha256": "da329d7665451c3b68d8c30fe2c7943bdf160dc5af23b0d8389b6acef7b72ee0",
-      "bytes": 9483
+      "sha256": "42f825bf8c8ada7234a164bc43d78797889ca79e2f795d0ade23f1d572701d23",
+      "bytes": 10184
+    },
+    "locomotion.mjs": {
+      "sha256": "368c11a2894e041e562817bfe842f2cfe6e375968bc3bb34256225fd89da77e9",
+      "bytes": 3087
     },
     "session.mjs": {
       "sha256": "3f1bf486c091f280b756c7560e7db6c9dd9acc50a556450b2b48f8d73c8c142a",
@@ -153,7 +157,5 @@
       "sha256": "a58b75a0ba9820bafa352072e6182870d9e86b6cb026bfd5f873815ee6439cd6",
       "bytes": 2753208
     }
-  },
-  "runtimeSourceModuleNote": "source/eir-head-resolved.mjs is an imported runtime geometry module, unchanged; editors and other source experiments excluded.",
-  "notPublished": true
+  }
 }
